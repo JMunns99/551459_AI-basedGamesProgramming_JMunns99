@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "\\\\adir.hull.ac.uk\\home\\650\\650874\\Yr2\\AI\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj": {}
+    "F:\\UniversityProjects\\Second Year\\ACW AI_GAMES\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj": {}
   },
   "projects": {
-    "\\\\adir.hull.ac.uk\\home\\650\\650874\\Yr2\\AI\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj": {
+    "F:\\UniversityProjects\\Second Year\\ACW AI_GAMES\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\adir.hull.ac.uk\\home\\650\\650874\\Yr2\\AI\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj",
+        "projectUniqueName": "F:\\UniversityProjects\\Second Year\\ACW AI_GAMES\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj",
         "projectName": "AI assignment",
-        "projectPath": "\\\\adir.hull.ac.uk\\home\\650\\650874\\Yr2\\AI\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj",
-        "packagesPath": "C:\\Users\\650874\\.nuget\\packages\\",
-        "outputPath": "\\\\adir.hull.ac.uk\\home\\650\\650874\\Yr2\\AI\\AI assignment\\AI assignment\\AI assignment\\obj\\",
+        "projectPath": "F:\\UniversityProjects\\Second Year\\ACW AI_GAMES\\AI assignment\\AI assignment\\AI assignment\\AI assignment.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "F:\\UniversityProjects\\Second Year\\ACW AI_GAMES\\AI assignment\\AI assignment\\AI assignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\650874\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,10 @@
             "MonoGame.Framework.WindowsDX": {
               "target": "Package",
               "version": "[3.8.1.303, )"
+            },
+            "MonoGame.ImGui.Net6": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -72,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

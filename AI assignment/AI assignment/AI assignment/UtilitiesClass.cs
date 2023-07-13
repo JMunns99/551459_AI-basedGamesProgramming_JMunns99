@@ -25,5 +25,18 @@ namespace AI_assignment
         {
             return Vector2.DistanceSquared(pPoint, pCircle) < pRadius * pRadius;
         }
+
+        public static Vector2 Clamp(this Vector2 pVector, float pMaxLength)
+        {
+            float length = pVector.Length();
+
+            if(length > pMaxLength)
+            {
+                float scaleFactor = pMaxLength / length;
+                pVector.X *= scaleFactor;
+                pVector.Y *= scaleFactor;
+            }
+            return pVector;
+        }
     }
 }
